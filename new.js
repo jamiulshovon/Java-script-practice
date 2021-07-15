@@ -93,3 +93,23 @@ console.log(arry);
 arry.pop();
 console.log(arry);
 
+
+
+var charArryDes='my name is shovon';
+console.log(charArryDes.toUpperCase());
+
+var slicing =charArryDes.split(' ');
+console.log(slicing);
+
+var cArry=[];
+cArry.push(slicing);
+cArry.push('jamal')
+console.log(cArry);
+cArry.shift();
+console.log(cArry);
+cArry.pop();
+console.log(cArry);
+cArry.unshift(slicing);
+console.log(cArry);
+
+
