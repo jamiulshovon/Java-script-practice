@@ -79,3 +79,17 @@ else{
 
 var dateDekha= new Date();
 console.log(dateDekha); 
+
+
+
+var arry=[10,15,20,25,30];
+var arryPostion=arry.indexOf(25);
+console.log(arryPostion);
+var amarAge=arry;
+console.log(amarAge.length);
+arry.push(20);
+arry.push(21);
+console.log(arry);
+arry.pop();
+console.log(arry);
+
