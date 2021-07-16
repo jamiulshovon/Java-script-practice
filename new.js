@@ -113,3 +113,36 @@ cArry.unshift(slicing);
 console.log(cArry);
 
 
+
+var iw=100;
+while(iw <150 ){
+
+    console.log(iw);
+    iw=iw+10;
+
+
+}
+var plps='jamal,kamal,karim,rahim';
+for(var i =0; i <plps.length; i++){
+     var j=plps[i];
+    console.log(j);
+}
+
+function calculator(num1,num2,num3,num4){
+
+    var add=num1+num2;
+    var biog=add-num3;
+    var gun =biog*num4;
+    var totalcaltulation=gun;
+    
+    return totalcaltulation;
+}
+
+var result= calculator(20,5,20,50);
+console.log(result);
+
+
+
+
+
+
